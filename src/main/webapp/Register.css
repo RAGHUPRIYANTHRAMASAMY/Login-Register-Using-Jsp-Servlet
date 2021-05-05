@@ -40,15 +40,6 @@ h3 span {
     font-family: 'Lobster', cursive;
 }
 
-/* #Navigation a:hover {
-    color: white;
-    text-shadow: 0 0 20px;
-} */
-
-/* #Navigation a:hover .fa-home {
-    color: blue;
-} */
-
 #Home {
     margin-left: 70px;
 }
@@ -84,7 +75,6 @@ h3 span {
 #SignUp:hover {
     box-shadow: 0px 0px 25px 5px #00fff2;
     transform: scale(1.01);
-    /* z-index: 2; */
 }
 
 #username, #email, #password, #phone {
