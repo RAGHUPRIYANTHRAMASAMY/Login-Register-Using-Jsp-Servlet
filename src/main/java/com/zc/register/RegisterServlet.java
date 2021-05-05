@@ -23,7 +23,8 @@ public class RegisterServlet extends HttpServlet {
     	String uname = request.getParameter("username");
     	String upass = request.getParameter("password");
     	String uemail = request.getParameter("email");
-    	int uphone = Integer.parseInt(request.getParameter("phone"));
+    	int uphone = 0;
+    	uemail = uemail+"@gmail.com";
     	
     	RegisterBean rb = new RegisterBean(uname, upass, uemail, uphone);
     	RegisterDao rdao = new RegisterDao();
