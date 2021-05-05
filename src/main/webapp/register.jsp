@@ -6,74 +6,76 @@
 	<meta charset="ISO-8859-1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-	<script src="https://kit.fontawesome.com/c5a0bea4a7.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-
+    
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Material Icons' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="./Register.css">
     <title>Register</title>
     
 </head>
 <body>
 	
-	<div id="Navigation">
-    
-        <span id="Home"><i class="fas fa-home"></i><a href="home.jsp">HOME</a></span>
-        <span id="right">
-            <span id="aboutUs"><a href="http://">About Us</a></span>
-            <span id="Contact"><a href="mailto:">Contact</a></span>
-        </span>
-    
-    </div>
-
-    <div id="SignUp">
-        <h3>Register Your Credentials</h3>
-        <form action="register" method="post">
-
-            <div>
-                <input type="text" name="username" 
-                id="username" placeholder="UserName" required>
-            </div>
-
-            <div>
-                <input type="password" name="password" 
-                id="password" placeholder="Password" required>
-            </div>
-
-            <div>
-                <input type="email" name="email" 
-                id="email" placeholder="Email" required>
-            </div>
-            <div>
-                <input type="number" name="phone" 
-                id="phone" placeholder="Phone" required>
-            </div>
-
-            <div>
-                <button type="submit">Register</button>
-            </div>
-
-        </form>
-
-        <hr>
-
-        <span>
-            <p>SignUp Using</p>
-        </span>
-        <div id="Lodo">
-            <a href="http://"><img width="50px" height="30px"
-                    src="https://diversevc.com/wp-content/uploads/2020/12/G.png"
-                    alt="" srcset=""></a>
-            <a href="http://"><img width="50px" height="40px"
-                    src="https://www.vippng.com/png/detail/5-54604_facebook-icon-transparent-png-whatsapp-icon-png.png" alt=""
-                    srcset=""></a>
-            <a href="http://"><img width="50px" height="40px"
-                src="https://txregionalcouncil.org/wp-content/uploads/2019/04/2-27646_twitter-logo-png-transparent-background-logo-twitter-png.jpg"
-                alt="" srcset=""></a>
+	<div class="main">
+    <form class="" action="register" method="post">
+      <div class="head">
+        <img src="" alt="logo" class="logo">
+        <h3>Create your Signin Account</h3>
+      </div>
+      <div class="name">
+        <input type="text" name="username" required>
+        <label>First name</label>
+      </div>
+      <div class="name">
+        <input type="text" required>
+        <label>Last name</label>
+      </div>
+      <div class="user-name">
+        <input type="username" name="email" required>
+        <label>Email</label>
+        <span class="gmail">@gmail.com</span>
+      </div>
+      <a class="line1">You can use letters, numbers & periods</a>
+      <a href="" class="line2">Use my current email address instead</a>
+      <div class="pass">
+        <input type="password" name="password" class="password" id="pass1" required>
+        <label>Password</label>
+      </div>
+      <div class="pass">
+        <input type="password" class="password" id="pass2" required>
+        <label>Confirm</label>
         </div>
-
+        <div class="iconeye">
+      <img src="eyehide.png" onclick="show();" id="eye">
+      </div>
+      <a class="line3">Use 8 or more characters with a mix of letters, numbers & symbols</a>
+      <a href="" class="line4">Sign in instead</a>
+      <input type="submit" value="Submit">
+    </form>
     </div>
+
+    <script type="text/javascript">
+
+    function show(){
+
+      var password= document.getElementById('pass1');
+      confirm= document.getElementById('pass2');
+      image= document.getElementById('eye');
+
+      if (password.type==="password",confirm.type==="password") {
+        password.type="text";
+        confirm.type="text";
+        image.setAttribute('src', 'eyeshow.png');
+
+      }else if (password.type==="text",confirm.type==="text"){
+        password.type="password";
+        confirm.type="password";
+        image.setAttribute('src', 'eyehide.png');
+      }
+    }
+
+    </script>
 	
 </body>
 </html>
