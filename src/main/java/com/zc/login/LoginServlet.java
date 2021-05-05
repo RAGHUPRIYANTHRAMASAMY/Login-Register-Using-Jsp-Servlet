@@ -36,7 +36,6 @@ public class LoginServlet extends HttpServlet {
     		response.sendRedirect("register.jsp");
     	}
     	
-//    	doGet(request, response);
 	}
     
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
