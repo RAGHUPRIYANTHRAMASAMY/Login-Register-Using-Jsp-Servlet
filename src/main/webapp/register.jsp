@@ -50,7 +50,7 @@
       <img src="eyehide.png" onclick="show();" id="eye">
       </div>
       <a class="line3">Use 8 or more characters with a mix of letters, numbers & symbols</a>
-      <a href="" class="line4">Sign in instead</a>
+      <a href="login.jsp" class="line4">Sign in instead</a>
       <input type="submit" value="Submit">
     </form>
     </div>
