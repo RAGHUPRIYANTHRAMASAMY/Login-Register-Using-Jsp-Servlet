@@ -8,8 +8,10 @@ Here I made all registration and login page with css style and designs**
 _I will add this after styling completed_ <br>
 **Register Page**
 
-![image](https://user-images.githubusercontent.com/81795180/117108142-640edb80-ada0-11eb-94e3-2f9f102735d5.png)
+![image](https://user-images.githubusercontent.com/81795180/117167609-08b30c80-ade5-11eb-9ac6-de636ff3baa4.png)
+
 
 **Login Page**
 
-![image](https://user-images.githubusercontent.com/81795180/117108242-87398b00-ada0-11eb-8dae-06e624c115ed.png)
+![image](https://user-images.githubusercontent.com/81795180/117167544-f76a0000-ade4-11eb-9b83-0c433d17f119.png)
+
