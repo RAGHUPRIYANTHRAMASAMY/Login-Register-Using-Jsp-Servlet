@@ -12,36 +12,54 @@
 </head>
 <body>
 	
-	<div class="maindiv">
-        <img src="" alt="Logo">
-        <h1>Sign in</h1>
-        <h3>Continue to login</h3>
-
-        <form action="login" method="post">
-
-            <div class="inputs">
-                <div class="Fields">
-                    <div class="Fieldset">
-                        <input type="text" class="Before-FS" name="Username" id="Username" required autocomplete="off">
-                        <h1 class="Fs-H"><span>Email or username</span></h1>
-                        <label class="placeholder">Email or username</label>
-                        <a id="forget" href="http://">Forget email or username?</a>
-                    </div>
-                </div>
-                <div class="Fields">
-                    <div class="Fieldset">
-                        <input type="password" class="Before-FS" name="Password" id="Password" required>
-                        
-                        <h1 class="Fs-H"><span>Password</span></h1>
-                        <label class="placeholder">Password</label>
-                    </div>
-                </div>
-        
+	   <div class="main">
+        <form class="" action="login" method="post">
+            <div class="head">
+                <center><img src="logo.png" alt="logo" class="logo">
+                    <h3>Sign in</h3>
+                    <h3>to access accounts</h3>
+                </center>
             </div>
-                <a id="ca" href="register.jsp">Create Account</a>
-                <button type="submit" id="login">LOGIN</button>
+            <div id="username" class="UsernameF">
+                <div class="name">
+                    <input type="text" name="Username" required>
+                    <label>Username</label>
+                </div>
+                <div>
+                    <a href="">Forget Username?</a>
+                    <button type="button" id="next" class="next">Next</button>
+                </div>
+                <div style="margin-left: 10px;">
+                    <h4>Sign in using</h4>
+                    <a href=""><img class="icon" src="./gicon.png" alt=""></a>
+                    <a href=""><img class="icon" src="./licon.png" alt=""></a>
+                    <a href=""><img class="icon" src="./micon.png" alt=""></a>
+    
+                </div>
+            </div>
+    
+            <div id="password" class="PasswordF">
+                <div class="pass">
+                    <input type="password" name="Password" class="password" id="pass1" required>
+                    <label>Password</label>
+                </div>
+                <div class="iconeye">
+                    <img src="eyehide.png" onclick="show();" id="eye">
+                </div>
+                <a href="">Forget Password?</a>
+                <input class="submit" type="submit" value="Submit">
+                <div style="margin-left: 10px;">
+                    <h4>Sign in using</h4>
+                    <a href=""><img class="icon" src="./gicon.png" alt=""></a>
+                    <a href=""><img class="icon" src="./licon.png" alt=""></a>
+                    <a href=""><img class="icon" src="./micon.png" alt=""></a>
+                </div>
+            </div>
+    
         </form>
     </div>
-	
+    
+    <script src="./login.js"></script>
+
 </body>
 </html>
