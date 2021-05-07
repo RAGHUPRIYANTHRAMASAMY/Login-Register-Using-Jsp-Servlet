@@ -21,3 +21,10 @@ _I will add this after styling completed_ <br>
 
 ![image](https://user-images.githubusercontent.com/81795180/117399524-60a15e80-af1e-11eb-9dca-99d9e17a1678.png)
 
+
+Transistion video output:
+
+
+https://user-images.githubusercontent.com/81795180/117405996-17570c00-af2a-11eb-847b-9e92e9f6ab87.mp4
+
+
