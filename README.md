@@ -14,17 +14,17 @@ _I will add this after styling completed_ <br>
 
 **Login Page**
 
-![image](https://user-images.githubusercontent.com/81795180/117399442-38196480-af1e-11eb-97c3-d8ebc7517b47.png)
+![image](https://user-images.githubusercontent.com/81795180/117605706-fd116e00-b175-11eb-9e6d-98f5bd693087.png)
 
 
-![image](https://user-images.githubusercontent.com/81795180/117399479-4cf5f800-af1e-11eb-9739-db673c9ed891.png)
-
-![image](https://user-images.githubusercontent.com/81795180/117399524-60a15e80-af1e-11eb-9dca-99d9e17a1678.png)
+![image](https://user-images.githubusercontent.com/81795180/117605739-10243e00-b176-11eb-874d-62d1f127c9db.png)
 
 
 Transistion video output:
 
 
-https://user-images.githubusercontent.com/81795180/117405996-17570c00-af2a-11eb-847b-9e92e9f6ab87.mp4
+
+https://user-images.githubusercontent.com/81795180/117605962-84f77800-b176-11eb-9a0b-1c2258e4eeeb.mp4
+
 
 
