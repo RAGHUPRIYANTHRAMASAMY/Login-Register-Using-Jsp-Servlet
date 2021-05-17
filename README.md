@@ -5,26 +5,29 @@ Here I made all registration and login page with css style and designs**
 
 **Home Page**
 
-_I will add this after styling completed_ <br>
+![image](https://user-images.githubusercontent.com/81795180/118433214-19725500-b6f8-11eb-986e-37cfc37e2b3a.png)
+
 **Register Page**
 
-![image](https://user-images.githubusercontent.com/81795180/117399383-128c5b00-af1e-11eb-86f1-fbe6f53a3a16.png)
-
+![image](https://user-images.githubusercontent.com/81795180/118433260-2e4ee880-b6f8-11eb-907a-e437f4f10aff.png)
 
 
 **Login Page**
 
-![image](https://user-images.githubusercontent.com/81795180/117605706-fd116e00-b175-11eb-9e6d-98f5bd693087.png)
+![image](https://user-images.githubusercontent.com/81795180/118433442-a9180380-b6f8-11eb-85c6-8f5fc4857205.png)
+
+![image](https://user-images.githubusercontent.com/81795180/118433480-baf9a680-b6f8-11eb-97a7-d000887d983b.png)
 
 
-![image](https://user-images.githubusercontent.com/81795180/117605739-10243e00-b176-11eb-874d-62d1f127c9db.png)
+Home page after signin using session management
+
+![image](https://user-images.githubusercontent.com/81795180/118433332-61917780-b6f8-11eb-89b9-a331be09be9b.png)
+
+Task demo output:
+
+https://user-images.githubusercontent.com/81795180/118433528-d5cc1b00-b6f8-11eb-88c0-56fab74b22bf.mp4
 
 
-Transistion video output:
-
-
-
-https://user-images.githubusercontent.com/81795180/117605962-84f77800-b176-11eb-9a0b-1c2258e4eeeb.mp4
 
 
 
