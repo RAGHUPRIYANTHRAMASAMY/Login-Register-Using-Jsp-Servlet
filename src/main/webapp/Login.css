@@ -15,12 +15,14 @@ form{
   background: #fff;
 }
 .logo{
-  width: 100px;
-  padding: 5px 0;
-  margin: 0 0 0 -15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 .head{
   padding-left: 10px;
+  text-align: center;
 }
 .head h3{
   margin: 0;
@@ -40,11 +42,16 @@ input{
 input:focus{
   border: 1.5px solid #1f52f9;
 }
-.name{
-  display: inline-block;
- 
+
+#result1, #pass-result{
+	margin: 10px;
+  	color: green;
+  	font-size: 15px;
 }
 
+.name{
+  display: inline-block;
+}
 input[type="text"]{
   display: block;
   width: 360px;
@@ -52,8 +59,8 @@ input[type="text"]{
 }
 input[type="email"]{
   display: block;
-  width: 390px;
-  margin: 10px 0 0 10px;
+  width: 360px;
+  margin: 30px 0 0 10px;
 }
 .gmail{
   position: relative;
@@ -92,19 +99,19 @@ input:valid ~ label{
   font-size: 10px;
   color: #1f52f9;
 }
-a{
+
+form a{
   position: relative;
   font-family: roboto;
   text-decoration: none;
-  margin-left: 10px;
   color: #1a73e8;
   font-weight: bolder;
 }
-input[type="submit"]{
+#btnsubmit{
   text-transform: uppercase;
   font-size: large;
   font-weight: bold;
-  background:  #4971f6;
+  background-color:  #4971f6;
   color: #fff;
   border: none;
   padding:10px 10px;
@@ -114,7 +121,7 @@ input[type="submit"]{
   font-size: 15px;
   transition: 0.6s all ease-in-out;
 }
-input[type="submit"]:hover{
+#btnsubmit:hover{
   background: none;
   border: 2px solid #f84242fb;
   border-radius: 10px;
@@ -126,7 +133,7 @@ input[type="submit"]:hover{
 #eye{
   display: block;
   position: relative;
-  top: -18px;
+  top: -40px;
   width:27px;
   cursor: pointer;
 }
@@ -140,7 +147,6 @@ input[type="submit"]:hover{
     font-weight: bold;
     padding:10px 30px;
     border-radius: 5px;
-    /* margin:  40px 0 30px 180px; */
     float: right;
     cursor: pointer;
     font-size: 15px;
@@ -156,12 +162,15 @@ input[type="submit"]:hover{
 
 #password{
   margin-top: 10px;
-  display: none;
 }
-
 .hidden{
   display: none;
 }
+
+.show {
+	display: block;
+}
+
 .icon{
  float: left;
  width: 52px;
@@ -185,7 +194,6 @@ input[type="submit"]:hover{
   animation: slide_left 0.5s ease;
 }
 
-
 @keyframes slide_left {
   0%{
     transform: translateX(100px);
@@ -193,4 +201,8 @@ input[type="submit"]:hover{
   100%{
     transform: translateX(0);
   }
+}
+
+.fub{
+	margin: 10px;
 }
